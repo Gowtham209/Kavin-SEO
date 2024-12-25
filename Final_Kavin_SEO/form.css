@@ -1,0 +1,68 @@
+
+form .heading{
+    font-size: 2.5rem;
+    font-family: var(--font-heading-family);
+    font-weight: bolder;
+}
+
+form{
+
+    min-width: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    padding: 2rem 3rem;
+    background-color: aqua;
+    border-radius: var(--form-border-radius);
+}
+
+
+
+form #msg{
+    min-height: 8rem;
+    border-radius: var(--input-box-border-radius);
+    border: none;
+    outline: none;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+form input{
+    min-height: 3.4rem;
+    border-radius: var(--input-box-border-radius);
+
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+#msg:placeholder-shown
+{
+    padding-top: 1rem;
+    outline: none;
+}
+
+
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .nav-but{
+        /* removing button design*/
+        border: none;
+        padding: 0.6rem 2rem;
+        box-sizing: content-box;
+}
+
+.email-box{
+    margin: 1rem 0rem;
+    justify-content: flex-start;
+}
+
+
+
