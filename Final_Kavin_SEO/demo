@@ -1,1 +1,11 @@
 newly changed does the "git fetch" alone enough
+no Currently i Found out the "git fetch" JUST Download the changes 
+BUT does not Merge or Intall the changes into the Local Repo 
+So we need USE "git merge"
+
+
+NOTE:
+"git pull repo_name"
+This is a Combination of "git fetch" & "git merge" combined 
+So the Changes Immediatley Reflects on Our Project
+
