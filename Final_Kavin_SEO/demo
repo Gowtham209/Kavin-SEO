@@ -7,5 +7,6 @@ So we need USE "git merge"
 NOTE:
 "git pull repo_name"
 This is a Combination of "git fetch" & "git merge" combined 
-So the Changes Immediatley Reflects on Our Projects
+So the Changes Immediatley Reflects on Our Projects 
+/* Hey there this is a Comment */
 
